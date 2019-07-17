@@ -8,7 +8,7 @@ namespace CheckoutKata.KataInterface
 {
     interface ICheckout
     {
-        void scan(string product);
+        void Scan(string product, int timesScanned);
         decimal GetTotalPrice();
     }
 }
