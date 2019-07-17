@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CheckoutKata
 {
-    public class Catalog
+    interface IProductPricing
     {
+        decimal GetTotalPrice(List<string> products);
     }
 }

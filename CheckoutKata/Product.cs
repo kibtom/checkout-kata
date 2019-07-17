@@ -8,13 +8,13 @@ namespace CheckoutKata
 {
     public class Product
     {
-        public string Sku;
-        public int Price;
+        public string ProductSku;
+        public decimal Price;
 
-        public Product(string sku, int price)
+        public Product(string sku, decimal price)
         {
             Price = price;
-            Sku = sku;
+            ProductSku = sku;
         }
     }
 }
