@@ -8,6 +8,6 @@ namespace CheckoutKata
 {
     interface IProductPricing
     {
-        decimal GetTotalPrice(List<string> products);
+        decimal GetDiscountedPrice(List<string> products);
     }
 }
